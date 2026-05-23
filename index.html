@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>الدروس</title>
+<meta charset="UTF-8">
+<title>موقعي التعليمي</title>
 
-  <style>
-    body{
-      font-family: Arial;
-      text-align: center;
-      background: #f4f4f4;
-      margin: 0;
-    }
+<style>
 
-    .nav{
-      background: #333;
-      padding: 15px;
-    }
+body{
+  font-family: Arial;
+  background: linear-gradient(120deg, #74ebd5, #acb6e5);
+  text-align: center;
+  margin: 0;
+}
 
-    .nav a{
-      color: white;
-      margin: 10px;
-      text-decoration: none;
-    }
+/* صندوق المحتوى */
+.card{
+  background: white;
+  width: 60%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
 
-    .box{
-      background: white;
-      padding: 20px;
-      margin: 30px auto;
-      width: 70%;
-      border-radius: 10px;
-      text-align: right;
-    }
-  </style>
+/* العنوان */
+h1{
+  font-size: 40px;
+  color: #333;
+}
+
+/* النص */
+p{
+  font-size: 18px;
+  color: #555;
+}
+
+/* الزر */
+button{
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover{
+  background: #0056b3;
+}
+
+</style>
+
 </head>
 
 <body>
 
-  <div class="nav">
-    <a href="index.html">الرئيسية</a>
-    <a href="lessons.html">الدروس</a>
-  </div>
+<div class="card">
 
-  <div class="box">
+  <h1>👋 مرحبًا بك في موقعي التعليمي</h1>
 
-    <h1>📚 الدروس</h1>
+  <p>دروس في البرمجة خطوة خطوة بطريقة سهلة</p>
 
-    <h2>الدرس 1: مقدمة</h2>
-    <p>تعلم أساسيات الموقع</p>
+  <a href="./lessons.html">
+    <button>اذهب إلى الدروس</button>
+  </a>
 
-    <h2>الدرس 2: HTML</h2>
-    <p>تعلم إنشاء صفحات الويب</p>
-
-    <h2>الدرس 3: GitHub</h2>
-    <p>رفع موقعك على الإنترنت</p>
-
-    <a href="index.html">⬅ رجوع للرئيسية</a>
-
-  </div>
+</div>
 
 </body>
 </html>
